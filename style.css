@@ -1,0 +1,68 @@
+#loginbody{
+    display: flex;
+    background-image: url("IMG_8516.jpeg");
+    background-size: cover;
+    backdrop-filter: blur(89px);
+    place-content: space-around;
+    place-items: space-around;
+}
+form{
+	outline: 1px double green;
+	margin-top: 90px;
+	border-radius: 7px;
+	-webkit-backdrop-filter: blur(29px);
+	backdrop-filter: blur(9px);
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 7px;
+	padding-right: 7px;
+	text-align: center;
+	color: white;
+	place-items: space-around;
+}
+#ti{
+	font-size: 23px;
+	color: white;
+	text-decoration: underline;
+	text-decoration-style: double;
+}
+input{
+	outline: 1px solid gray;
+	width: 250px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: 25px;
+	margin-left: 25px;
+	height: 23px;
+	cursor: pointer;
+	border: none;
+	font-size: 14px;
+	font-family: Verdana, sans-serif;
+}
+#this{
+	height: 23px;
+	width: 23px;
+	color: darkgreen;
+	outline: none;
+}
+#btn{
+	background: seagreen;
+	color: white;
+	outline: none;
+	height: 23px;
+	font-size: 14px;
+	font-weight: bold;
+	height: 30px;
+}
+a{
+	color: darkgreen;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 5px;
+	text-emphasis: circle;
+	text-emphasis-color: white;
+	text-emphasis-position: under;
+}
+p{
+	color: white;
+}
