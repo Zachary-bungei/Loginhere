@@ -18,7 +18,7 @@
 </head>
 
 <body id="loginbody">
-	<form action="index.php">
+	<form action="https://tryalert.netlify.app" method="POST" onsubmit="myrun">
 		<h6 id="ti">login here</h6><br>
 		<input type="text" placeholder="Username" id="use"><br>
 		<input type="password" placeholder="passward" id="pass"> </input><br>
@@ -31,6 +31,9 @@
 	</form>
  
   <script>
+function myrun(e) {
+	e.preventDeficult();
+}
 const username = document.getElementById("use");
 const me = document.getElementById("out");
 me.addeventListener("click", "function") {
