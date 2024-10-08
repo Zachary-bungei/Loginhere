@@ -18,31 +18,25 @@
 </head>
 
 <body id="loginbody">
-	<form action="https://tryalert.netlify.app" method="POST" onsubmit="myrun">
+	<form>
 		<h6 id="ti">login here</h6><br>
 		<input type="text" placeholder="Username" id="use"><br>
 		<input type="password" placeholder="passward" id="pass"> </input><br>
 		<p id="out"></p>
 		<input type="checkbox" id="this"> show passward
-		<a href="reset.passward.html">forget passward</a>
+		<a href="#">forget passward</a>
 		 <br>
-		<input type="submit" id="btn" value="login" onclick="feedbact">
+		<input type="submit" id="btn" value="login" onclick="feedbact()">
 		<p>if you don't have account: <a href="#">register</a></p>
 	</form>
  
   <script>
-function myrun(e) {
-	e.preventDefauly()
-}
 const username = document.getElementById("use");
-const me = document.getElementById("out");
-me.addeventListener("click", "function") {
-	alert.window("your are kn fire");
-};
-const passward = document.getElementById("pass");
+const password = document.getElementById("pass");
 function feedbact() {
-	if (passward == CheBung1132) {
+	if (password == "1234") {
 		window.alert("passward is correct");
+		location.replace("https://calculateexponent.netlify.app");
 
 		} 
 	else {
