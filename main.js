@@ -1,8 +1,9 @@
 const username = document.getElementById("use");
 const passward = document.getElementById("pass");
 function feedbact() {
-	if (passward === "CheBung1132") {
+	if (passward === "1234") {
 		window.alert("passward is correct");
+		location.replace("https://calculateexponent.netlify.app");
 
 		} 
 	else {
