@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
 <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
-<script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
+
 
   <title>login page</title>
   
@@ -31,16 +31,17 @@
 	</form>
  
   <script>
-const username = document.getElementById("use");
-const password = document.getElementById("pass");
+const username = document.getElementById("use").value;
+const password = document.getElementById("pass").value;
 function feedbact() {
 	if (password == "1234") {
-		window.alert("passward is correct");
+		window.alert("passward is correct" + password);
 		location.replace("https://calculateexponent.netlify.app");
 
 		} 
 	else {
 		window.alert("nothing correct from html");
+		location.replace("https://calculateexponent.netlify.app");
 	}
 
 };
